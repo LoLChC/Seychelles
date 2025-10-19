@@ -1,0 +1,106 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Seychelles — Paradise on Earth</title>
+  <link rel="stylesheet" href="{% static 'css/index.css' %}">
+</head>
+<body>
+  <!-- HERO SECTION -->
+  <header class="hero">
+    <div class="hero-overlay"></div>
+    <div class="hero-content">
+      <h1 class="wave-text">Welcome to the Seychelles 🌴</h1>
+      <p>Where turquoise waters meet emerald forests and endless skies.</p>
+      <a href="#about" class="btn">Start Exploring</a>
+    </div>
+  </header>
+
+  <!-- ABOUT SECTION -->
+  <section id="about" class="section">
+    <h2>About the Seychelles</h2>
+    <p>
+      Located off East Africa in the Indian Ocean, the Seychelles is made up of 115 islands blessed with
+      pure white beaches, lush palm forests, and crystal-clear lagoons. It's a destination where luxury meets nature — 
+      untouched and mesmerizing. The islands are volcanic and coral in origin, hosting rare wildlife, coral reefs,
+      and one of the smallest capitals in the world — Victoria.
+    </p>
+
+    <div class="gallery">
+      <img src="https://images.unsplash.com/photo-1507525428034-b723cf961d3e" alt="Seychelles Beach">
+      <img src="https://images.unsplash.com/photo-1506744038136-46273834b3fb" alt="Island">
+      <img src="https://images.unsplash.com/photo-1519996529931-28324d5a6300" alt="Palm Trees">
+    </div>
+  </section>
+
+  <!-- NATURE SECTION -->
+  <section class="section parallax parallax-nature">
+    <div class="content-box">
+      <h2>Nature & Wildlife</h2>
+      <p>
+        The islands are home to over 1,000 species of flora and fauna found nowhere else on Earth.
+        Visit Vallée de Mai to see the famous Coco de Mer palm, or meet the Aldabra giant tortoises —
+        living fossils that can weigh up to 250 kg.
+      </p>
+    </div>
+  </section>
+
+  <!-- CULTURE SECTION -->
+  <section class="section culture">
+    <h2>Culture & People</h2>
+    <p>
+      The Seychellois are known for their warmth and relaxed lifestyle. Their Creole culture blends African,
+      Asian, and European influences, creating vibrant art, dance, and cuisine. Music fills the islands at sunset —
+      with *moutya* and *sega* rhythms echoing along the beaches.
+    </p>
+
+    <div class="gallery culture-gallery">
+      <img src="https://images.unsplash.com/photo-1574169208507-84376144848b" alt="Market">
+      <img src="https://images.unsplash.com/photo-1552053831-71594a27632d" alt="Beach">
+      <img src="https://media.istockphoto.com/id/1472932742/photo/group-of-multigenerational-people-hugging-each-others-support-multiracial-and-diversity.jpg?s=612x612&w=0&k=20&c=Zm1MthU_G_LzfjBFBaMORRnuBhMsCjPQ38Ksfg4zl9g=" alt="People">
+    </div>
+  </section>
+
+  <!-- EXPERIENCES SECTION -->
+  <section class="section cards-section">
+    <h2>Unforgettable Experiences</h2>
+    <div class="cards">
+      <div class="card float">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRx_WSpe79PPCp2RBGTQQgodUIrmIVa_R4D8g&s" alt="Snorkeling">
+        <h3>Underwater Paradise</h3>
+        <p>Explore colorful coral reefs and swim alongside vibrant fish and turtles.</p>
+      </div>
+      <div class="card float-delay">
+        <img src="https://cf.bstatic.com/xdata/images/hotel/max1024x768/386480587.jpg?k=199f2fdf3a84e8ae5d42d07f28b7723b528cbe56599b24390d9adfd58ae3e310&o=&hp=1" alt="Luxury Resort">
+        <h3>Island Luxury</h3>
+        <p>Stay in overwater villas surrounded by turquoise lagoons and endless serenity.</p>
+      </div>
+      <div class="card float">
+        <img src="https://images.pexels.com/photos/15352567/pexels-photo-15352567/free-photo-of-silhouettes-of-people-hiking-at-sunset.jpeg" alt="Sunset Hike">
+        <h3>Sunset Hikes</h3>
+        <p>Climb tropical peaks for panoramic ocean views — the perfect golden hour moment.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- FINAL SECTION -->
+  <section class="section parallax parallax-sunset">
+    <div class="content-box">
+      <h2>See the Seychelles</h2>
+      <p>
+        The Seychelles is more than a destination — it's a feeling.  
+        A paradise that lives in every wave, every sunrise, and every smile.  
+        Come experience it. Come breathe it.
+      </p>
+    </div>
+  </section>
+
+  <footer>
+    <p>© 2025 Seychelles Explorer | Designed with passion and Django 🌺</p>
+  </footer>
+
+  <script src="{% static 'js/index.js' %}"></script>
+</body>
+</html>
